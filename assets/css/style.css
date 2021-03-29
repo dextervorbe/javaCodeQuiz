@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 100px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.words{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.start-btn, .Option-1, .Option-2, .Option-3, .Option-4 {
+    display: flex;
+    font-size: 20px;
+    margin-left: 50%;
+    background-color: purple;
+    color: white;
+}
+
+.Option-holder {
+    margin-top: 30px;
+}
+
+button:hover {
+    color: orange;
+}
+
+.clock {
+    display: flex;
+    padding-left: 90%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
